@@ -6,8 +6,12 @@ with open("Ozhegov.txt", encoding="utf-8") as f:
              print(line)
          c=a[2]
          d=len(c)
+         i=0
          if d>0:
              print(c,d)
+             i+=1
+             print(i)
+         
 
 
         
