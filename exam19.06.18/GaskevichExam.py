@@ -1,7 +1,8 @@
 import csv
-print ('Гаскевич Александра БКЛ172 Экзамен Задание 2')
-
 import re
+import os
+
+print ('Гаскевич Александра БКЛ172 Экзамен Задание 2')
 
 def reading(filename):
     with open (filename, 'r') as f:
@@ -54,8 +55,6 @@ def noun(t):
 def main():
     abbr(reading('_itartass1.xhtml'))
     abbr(reading('_itartass2.xhtml'))
-
-
     abbr(reading('_itartass3.xhtml'))
     abbr(reading('_itartass4.xhtml'))
     abbr(reading('_itartass5.xhtml'))
